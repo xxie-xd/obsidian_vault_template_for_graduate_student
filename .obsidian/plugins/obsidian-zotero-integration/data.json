@@ -1,0 +1,20 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "02-Reading/zotero-notes",
+  "pdfExportImageDPI": 400,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Import to paper manager Markdown",
+      "outputPathTemplate": "02-Reading/zotero-imports/@{{citekey}}.md",
+      "imageOutputPathTemplate": "08-Assets/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "08-Assets/Scripts/ZoteroIntergrationImportTemplate1.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}
